@@ -1,0 +1,17 @@
+{
+  "name": "vamos-passear-api",
+  "version": "1.0.0",
+  "description": "Vamos passear - API",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/edumoreira1506/vamos-passear-api.git"
+  },
+  "author": "Eduardo Moreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edumoreira1506/vamos-passear-api/issues"
+  },
+  "homepage": "https://github.com/edumoreira1506/vamos-passear-api#readme"
+}
