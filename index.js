@@ -1,8 +1,8 @@
-import './database/index.js';
-import Server from './config/server.js';
+import './database/index.js'
+import Server from './config/server.js'
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000
 
 Server.listen(port, () => {
-	console.log(`Online API on port ${port}`);
+  console.log(`Online API on port ${port}`)
 })
