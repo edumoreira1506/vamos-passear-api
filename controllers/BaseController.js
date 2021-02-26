@@ -7,18 +7,30 @@ export default class BaseController {
     this.name = name
   }
 
-  store(req, res, next) {
+  validatePayload(payload) {
+    const { schema } = this
+    const { error, value } = schema.validate(payload)
+    console.log(error, 'error')
+    console.log(value, 'value')
   }
 
-  remove(req, res, next) {
+  store = (req, res, next) => {
+    console.log(req.body)
+    console.log(req)
+    const payload = req.body ?? {}
+
+    this.validatePayload(payload)
   }
 
-  index(req, res, next) {
+  remove = (req, res, next) => {
   }
 
-  show(req, res, next) {
+  index = (req, res, next) => {
   }
 
-  update(req, res, next) {
+  show = (req, res, next) => {
+  }
+
+  update = (req, res, next) => {
   }
 }

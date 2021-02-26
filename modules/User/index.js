@@ -1,3 +1,6 @@
+import UserSchema from './schema.js'
+
 export default {
-  name: 'user'
+  name: 'user',
+  schema: UserSchema,
 }
